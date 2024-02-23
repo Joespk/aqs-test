@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "../redux/types";
+import { RootState } from "../redux/types/types";
 
 const Navbar = () => {
   const activeLink = useSelector(
