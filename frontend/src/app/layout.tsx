@@ -20,7 +20,7 @@ export default function RootLayout({
     <ReduxProvider>
       <html lang="en">
         <body className={inter.className}>
-          <div className="container mx-auto">
+          <div className="container mx-auto max-w-[1400px] justify-center">
             <Navbar />
             {children}
           </div>
