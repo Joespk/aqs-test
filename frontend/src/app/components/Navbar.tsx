@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-[1400px] justify-center py-4">
-      <div className="rounded-full bg-[#e8e5e480] flex justify-between mx-auto gap-2 max-w-[300px] p-1 ">
+    <nav className="max-w-[1400px] justify-center py-4  ">
+      <div className="rounded-full bg-[#e8e5e480] flex justify-between mx-auto gap-2 max-w-[300px] p-1  ">
         <Link
           href="/"
           onClick={() => handleLinkClick("/")}

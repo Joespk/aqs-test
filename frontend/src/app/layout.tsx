@@ -21,7 +21,10 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <div className="container mx-auto max-w-[1400px] justify-center">
-            <Navbar />
+            <div className="fixed top-0 z-50 w-full">
+              <Navbar />
+            </div>
+
             {children}
           </div>
         </body>
