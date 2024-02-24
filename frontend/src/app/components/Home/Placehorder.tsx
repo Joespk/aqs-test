@@ -2,7 +2,7 @@
 
 const Placehoder = () => {
   return (
-    <div className="p-2 max-h-[50vh] flex flex-col gap-8 pl items-center mt-10  my-20 relative  place-content-center w-full justify-around animated fadeInUp">
+    <div className="p-2 max-h-[50vh] flex flex-col gap-8 pl items-center mt-20  mb-20 mt- relative  place-content-center w-full justify-around animated fadeInUp">
       <div className="flex flex-col justify-start shrink-0 mt-24 ">
         <h1 className={`text-5xl text-center max-w-[600px] font-medium `}>
           A brand and product designer working with clients globally
