@@ -1,3 +1,5 @@
+"use client";
+
 import { InitialState, SetActiveLinkAction } from "../types/types";
 
 const initialState: InitialState = {
