@@ -16,12 +16,6 @@ export default function Contact() {
   useEffect(() => {
     // เมื่อโหลดหน้า Contact ให้ setActiveLink ที่ activeLink เท่ากับ '/contact'
     dispatch(setActiveLink('/contact'));
-
-    // บันทึกค่า activeLink ลงใน localStorage เมื่อโหลดหน้า Contact
-    localStorage.setItem(
-      'activeLinkState',
-      JSON.stringify({ activeLink: '/contact' }),
-    );
   }, [dispatch]);
 
   return (

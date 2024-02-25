@@ -20,10 +20,6 @@ export default function Home() {
 
   useEffect(() => {
     dispatch(setActiveLink('/'));
-    localStorage.setItem(
-      'activeLinkState',
-      JSON.stringify({ activeLink: '/' }),
-    );
   }, [dispatch]);
 
   return (
