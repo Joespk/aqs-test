@@ -2,8 +2,16 @@
 
 import { InitialState, SetActiveLinkAction } from "../types/types";
 
+const getInitialActiveLink = () => {
+  if (process.browser) {
+    return window.location.pathname;
+  } else {
+    return "/";
+  }
+};
+
 const initialState: InitialState = {
-  activeLink: window.location.pathname, // Set initial state from pathname
+  activeLink: getInitialActiveLink(),
 };
 
 const activeLinkReducer = (
