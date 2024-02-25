@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import Card from "./components/Home/Card";
-import Placecontact from "./components/Home/Placecontact";
-import Placehoder from "./components/Home/Placehorder";
-import { IPicture } from "./types/Dto";
-import useImage from "./็hook/useImage";
+import Card from './components/Home/Card';
+import Placecontact from './components/Home/Placecontact';
+import Placehoder from './components/Home/Placehorder';
+import { IPicture } from './types/Dto';
+import useImage from './็hook/useImage';
 
 export default function Home() {
   const { images } = useImage();
