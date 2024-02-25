@@ -11,7 +11,7 @@ const Placehoder = () => {
       <div className="flex flex-row items-center gap-2.5 text-sm font-light my-">
         <p>Expertise</p>
         <div className="rounded-full bg-[#e8e5e480]  p-2 z-10 ">
-          <p className="text-black">ฺBranding</p>
+          <p className="text-black">Branding</p>
         </div>
         <div className="rounded-full bg-[#e8e5e480]  p-2 z-10">
           <p className="text-black">Product</p>
