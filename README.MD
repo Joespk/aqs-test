@@ -31,6 +31,6 @@ To run the backend locally, follow these steps:
 
 1. Navigate to the backend folder: `cd backend`
 2. Install dependencies: `pnpm install`
-3. Run compose: `docker-compose up -d`
+3. Run compose: `docker compose up -d`
 4. Start the server: `pnpm start`
 
