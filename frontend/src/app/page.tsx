@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="container flex flex-col gap-10 max-w-[1400px] items-center">
       <Placehoder />
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-2 gap-10 animated fadeInUp">
         {images &&
           images.map((image: IPicture) => (
             <Card key={image.id} image={image} />
