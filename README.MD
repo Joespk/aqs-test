@@ -33,6 +33,3 @@ To run the backend locally, follow these steps:
 3. Run compose: `docker-compose up -d`
 4. Start the server: `pnpm start`
 
-## License
-
-This project is licensed under the [License Name] license. See the [LICENSE](LICENSE) file for details.
