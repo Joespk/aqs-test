@@ -23,6 +23,7 @@ To run the frontend locally, follow these steps:
 ## Backend (pnpm)
 
 The backend folder contains the server-side code of the application, developed using pnpm.
+database by mongoDB 
 
 ### Usage
 
