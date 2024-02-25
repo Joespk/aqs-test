@@ -16,7 +16,7 @@ The frontend of this project is deployed and can be accessed [here](https://aqs-
 
 To run the frontend locally, follow these steps:
 
-1. Navigate to the frontend folder: `cd Frontend`
+1. Navigate to the frontend folder: `cd frontend`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
@@ -28,7 +28,7 @@ The backend folder contains the server-side code of the application, developed u
 
 To run the backend locally, follow these steps:
 
-1. Navigate to the backend folder: `cd Backend`
+1. Navigate to the backend folder: `cd backend`
 2. Install dependencies: `pnpm install`
 3. Run compose: `docker-compose up -d`
 4. Start the server: `pnpm start`
