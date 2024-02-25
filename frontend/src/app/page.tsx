@@ -1,13 +1,30 @@
 'use client';
 
+import { Dispatch } from '@reduxjs/toolkit';
 import Card from './components/Home/Card';
 import Placecontact from './components/Home/Placecontact';
 import Placehoder from './components/Home/Placehorder';
 import { IPicture } from './types/Dto';
 import useImage from './็hook/useImage';
+import { RootState, SetActiveLinkAction } from './redux/types/types';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { setActiveLink } from './redux/action/actionsLink';
 
 export default function Home() {
   const { images } = useImage();
+  const dispatch: Dispatch<SetActiveLinkAction> = useDispatch();
+  const activeLink = useSelector(
+    (state: RootState) => state.activeLink.activeLink,
+  );
+
+  useEffect(() => {
+    dispatch(setActiveLink('/'));
+    localStorage.setItem(
+      'activeLinkState',
+      JSON.stringify({ activeLink: '/' }),
+    );
+  }, [dispatch]);
 
   return (
     <div className="container flex flex-col gap-10 max-w-[1400px] items-center">
