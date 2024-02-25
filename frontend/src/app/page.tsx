@@ -5,7 +5,6 @@ import Placecontact from "./components/Home/Placecontact";
 import Placehoder from "./components/Home/Placehorder";
 import { IPicture } from "./types/Dto";
 import useImage from "./็hook/useImage";
-import asterisk from "@/app/asset/Asterisk.svg";
 
 export default function Home() {
   const { images } = useImage();
