@@ -5,7 +5,6 @@
 |        method        |           path           |     description     | access level | req body |      res body       |
 | :------------------: | :----------------------: | :-----------------: | :----------: | :------: | :-----------------: |
 |         GET          |         /game24          |       get all       |    anyone    |   null   | (numbers: [Number],solutions: [String])solutions: [String]) |
-
 |         GET          | /game24?number=[numbers] | get by array Number |    anyone    |   null   | (numbers: [Number],solutions: [String])solutions: [String]) |
 
 
