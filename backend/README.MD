@@ -5,7 +5,7 @@
 |        method        |           path           |     description     | access level | req body |      res body       |
 | :------------------: | :----------------------: | :-----------------: | :----------: | :------: | :-----------------: |
 |         GET          |         /game24          |       get all       |    anyone    |   null   | (numbers: [Number],solutions: [String]) |
-|         GET          | /game24?number=[numbers] | get by array Number |    anyone    |   null   | (numbers: [Number],solutions: [String])|
+|         GET          | /game24?number=numbers numbers have 4-digit number | get by array Number |    anyone    |   null   | (numbers: [Number],solutions: [String])|
 
 
 ### Compiles and hot-reloads for development
