@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import axios from "axios";
-import { IPicture } from "../types/Dto";
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { IPicture } from '../types/Dto';
 
 const useImage = () => {
   const [images, setImages] = useState<IPicture[]>([]);
@@ -11,12 +11,12 @@ const useImage = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://api.thecatapi.com/v1/images/search?limit=10"
+          'https://api.thecatapi.com/v1/images/search?limit=10',
         ); // ใช้ Axios แทน fetch
         const data = response.data;
         setImages(data);
       } catch (error) {
-        console.error("Error fetching images:", error);
+        console.error('Error fetching images:', error);
       }
     };
 
