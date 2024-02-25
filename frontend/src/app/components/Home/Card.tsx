@@ -26,11 +26,9 @@ const Card = ({ image }: Ipirtureprop) => {
       />
       {isHovered && (
         <div className="absolute inset-0">
-          <div className="flex flex-row mt-[4%]">
-            <p className="text-white relative uppercase left-3 font-light">
-              {image.id}
-            </p>
-            <button className="bg-white p-3 rounded-full shadow-md relative left-[85%]  animate-fadeRightUp ">
+          <div className="flex flex-row mt-[4%] gap-[400px] justify-between">
+            <p className="text-white ml-3 uppercase  font-light">{image.id}</p>
+            <button className="bg-white p-3 mr-3 rounded-full shadow-md animate-fadeRightUp ">
               <Image src={arrowright} alt="rightarrow" width={20} height={20} />
             </button>
           </div>

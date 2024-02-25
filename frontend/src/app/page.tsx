@@ -1,6 +1,7 @@
 "use client";
 
 import Card from "./components/Home/Card";
+import Placecontact from "./components/Home/Placecontact";
 import Placehoder from "./components/Home/Placehorder";
 import { IPicture } from "./types/Dto";
 import useImage from "./็hook/useImage";
@@ -11,12 +12,13 @@ export default function Home() {
   return (
     <div className="container flex flex-col gap-10 max-w-[1400px] items-center">
       <Placehoder />
-      <div className="grid grid-cols-2 gap-10 animated fadeInUp">
+      <div className="grid grid-cols-2 gap-10  animated fadeInUp">
         {images &&
           images.map((image: IPicture) => (
             <Card key={image.id} image={image} />
           ))}
       </div>
+      <Placecontact />
     </div>
   );
 }
