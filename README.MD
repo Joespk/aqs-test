@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains both frontend and backend components for the Project Name application.
+This repository contains both frontend and backend components for AQS-TEST-TECH application.
 
 ## Frontend (Next.js)
 
